@@ -1,17 +1,26 @@
 #menu
 {
 	position: fixed;
-	background: rgb(155, 10, 29);
-	width: 99%;
+	top:0;
+	left:0;
+}
+
+.zoom {
 	border-radius: 8px;
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.zoom:hover {
+	transform: scale(1.5);
 }
 a
 {
-	font-size: 10;
 	color: white;
 	text-decoration: none;
 	background-color: rgb(155, 10, 29);
-	justify-content: space-between;
+}
+a:hover{
+	background-color: black;
 }
 body
 {
@@ -24,10 +33,9 @@ body
 h1{
 	font-style: italic;
 	border-style: solid red;
+	color:indigo;
 }
-img{
-	border-radius: 8px;
-}
+
 iframe{
 	color: white;
 }
