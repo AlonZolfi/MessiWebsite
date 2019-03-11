@@ -27,13 +27,13 @@ body
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: white;
 	background: rgb(58, 58, 219);
-	background-image: url('background.gif');
-	background-size: 100%;
+	background-image: url('background1.jpg');
 }
 h1{
 	font-style: italic;
 	border-style: solid red;
-	color:indigo;
+	color:black;
+	text-shadow: 1px 1px white;
 }
 
 iframe{
